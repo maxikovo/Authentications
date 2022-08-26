@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const a = "hello";
+
 mongoose.connect("mongodb://127.0.0.1:27017/SecretsDB");
 
 
